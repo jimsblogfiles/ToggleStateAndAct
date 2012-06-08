@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB62599154A01B500956109 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB62598154A01B500956109 /* UIKit.framework */; };
+		8CB6259B154A01B500956109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB6259A154A01B500956109 /* Foundation.framework */; };
+		8CB6259D154A01B500956109 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB6259C154A01B500956109 /* CoreGraphics.framework */; };
+		8CB625A3154A01B500956109 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CB625A1154A01B500956109 /* InfoPlist.strings */; };
+		8CB625A5154A01B500956109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB625A4154A01B500956109 /* main.m */; };
+		8CB625A9154A01B500956109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB625A8154A01B500956109 /* AppDelegate.m */; };
+		8CB625AC154A01B500956109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB625AB154A01B500956109 /* ViewController.m */; };
+		8CB625AF154A01B500956109 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB625AD154A01B500956109 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CB62594154A01B500956109 /* ToggleStateAndAct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleStateAndAct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB62598154A01B500956109 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CB6259A154A01B500956109 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CB6259C154A01B500956109 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CB625A0154A01B500956109 /* ToggleStateAndAct-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToggleStateAndAct-Info.plist"; sourceTree = "<group>"; };
+		8CB625A2154A01B500956109 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CB625A4154A01B500956109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CB625A6154A01B500956109 /* ToggleStateAndAct-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToggleStateAndAct-Prefix.pch"; sourceTree = "<group>"; };
+		8CB625A7154A01B500956109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CB625A8154A01B500956109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CB625AA154A01B500956109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CB625AB154A01B500956109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CB625AE154A01B500956109 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB62591154A01B500956109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB62599154A01B500956109 /* UIKit.framework in Frameworks */,
+				8CB6259B154A01B500956109 /* Foundation.framework in Frameworks */,
+				8CB6259D154A01B500956109 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB62589154A01B500956109 = {
+			isa = PBXGroup;
+			children = (
+				8CB6259E154A01B500956109 /* ToggleStateAndAct */,
+				8CB62597154A01B500956109 /* Frameworks */,
+				8CB62595154A01B500956109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB62595154A01B500956109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB62594154A01B500956109 /* ToggleStateAndAct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB62597154A01B500956109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CB62598154A01B500956109 /* UIKit.framework */,
+				8CB6259A154A01B500956109 /* Foundation.framework */,
+				8CB6259C154A01B500956109 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB6259E154A01B500956109 /* ToggleStateAndAct */ = {
+			isa = PBXGroup;
+			children = (
+				8CB625A7154A01B500956109 /* AppDelegate.h */,
+				8CB625A8154A01B500956109 /* AppDelegate.m */,
+				8CB625AA154A01B500956109 /* ViewController.h */,
+				8CB625AB154A01B500956109 /* ViewController.m */,
+				8CB625AD154A01B500956109 /* ViewController.xib */,
+				8CB6259F154A01B500956109 /* Supporting Files */,
+			);
+			path = ToggleStateAndAct;
+			sourceTree = "<group>";
+		};
+		8CB6259F154A01B500956109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB625A0154A01B500956109 /* ToggleStateAndAct-Info.plist */,
+				8CB625A1154A01B500956109 /* InfoPlist.strings */,
+				8CB625A4154A01B500956109 /* main.m */,
+				8CB625A6154A01B500956109 /* ToggleStateAndAct-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB62593154A01B500956109 /* ToggleStateAndAct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB625B2154A01B500956109 /* Build configuration list for PBXNativeTarget "ToggleStateAndAct" */;
+			buildPhases = (
+				8CB62590154A01B500956109 /* Sources */,
+				8CB62591154A01B500956109 /* Frameworks */,
+				8CB62592154A01B500956109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToggleStateAndAct;
+			productName = ToggleStateAndAct;
+			productReference = 8CB62594154A01B500956109 /* ToggleStateAndAct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB6258B154A01B500956109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8CB6258E154A01B500956109 /* Build configuration list for PBXProject "ToggleStateAndAct" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CB62589154A01B500956109;
+			productRefGroup = 8CB62595154A01B500956109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB62593154A01B500956109 /* ToggleStateAndAct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB62592154A01B500956109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB625A3154A01B500956109 /* InfoPlist.strings in Resources */,
+				8CB625AF154A01B500956109 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB62590154A01B500956109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB625A5154A01B500956109 /* main.m in Sources */,
+				8CB625A9154A01B500956109 /* AppDelegate.m in Sources */,
+				8CB625AC154A01B500956109 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CB625A1154A01B500956109 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB625A2154A01B500956109 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CB625AD154A01B500956109 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB625AE154A01B500956109 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB625B0154A01B500956109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CB625B1154A01B500956109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB625B3154A01B500956109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToggleStateAndAct/ToggleStateAndAct-Prefix.pch";
+				INFOPLIST_FILE = "ToggleStateAndAct/ToggleStateAndAct-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CB625B4154A01B500956109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToggleStateAndAct/ToggleStateAndAct-Prefix.pch";
+				INFOPLIST_FILE = "ToggleStateAndAct/ToggleStateAndAct-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB6258E154A01B500956109 /* Build configuration list for PBXProject "ToggleStateAndAct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB625B0154A01B500956109 /* Debug */,
+				8CB625B1154A01B500956109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB625B2154A01B500956109 /* Build configuration list for PBXNativeTarget "ToggleStateAndAct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB625B3154A01B500956109 /* Debug */,
+				8CB625B4154A01B500956109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB6258B154A01B500956109 /* Project object */;
+}
